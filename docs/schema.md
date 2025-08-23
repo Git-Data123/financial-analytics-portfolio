@@ -9,7 +9,7 @@ This table contains data about loan applications.
 | `married` | text | Is the applicant married? (Yes/No) |
 | `dependents` | text | Number of dependents (e.g., 0, 1, 2+) |
 | `education` | text | Applicant's education level (Graduate/Not Graduate) |
-| `self_employed` | integer | This shows if the person employed or self employed |
+| `self_employed` | text | This shows if the person employed or self employed |
 | `applicant_income` | integer | The amount of money the the earn |
 | `coapplicant_income` | integer | The amount of money the co-applicant earns |
 | `loan_amount` | integer | The amount of loan requested |
