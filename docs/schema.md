@@ -4,16 +4,16 @@ This table contains data about loan applications.
 
 | Column Name | Data Type | Description |
 | :--- | :--- | :--- |
-| `loan_id` | integer | A unique ID for each loan application |
-| `gender` | text | Applicant's gender (e.g., Male/Female) |
-| `married` | text | Is the applicant married? (Yes/No) |
-| `dependents` | text | Number of dependents (e.g., 0, 1, 2+) |
-| `education` | text | Applicant's education level (Graduate/Not Graduate) |
-| `self_employed` | text | This shows if the person employed or self employed |
-| `applicant_income` | integer | The amount of money the the earn |
-| `coapplicant_income` | integer | The amount of money the co-applicant earns |
-| `loan_amount` | integer | The amount of loan requested |
-| `loan_amount_terms` | text | The terms and conditions applied to the loan |
-| `credit_history` | text | the persons credit warthiness|
-| `Property_area` | text | What is the size of the property |
-| `loan_status` | text | Was the loan approved? (Y/N) |
+| `Loan_ID` | text | A unique ID for each loan application (e.g., LP001002) |
+| `Gender` | text | Applicant's gender (Male/Female) |
+| `Married` | text | Is the applicant married? (Yes/No) |
+| `Dependents` | text | Number of dependents (0, 1, 2, 3+) |
+| `Education` | text | Applicant's education level (Graduate/Not Graduate) |
+| `Self_Employed` | text | Is the applicant self-employed? (Yes/No) |
+| `Applicant_Income` | integer | Income of the applicant |
+| `Coapplicant_Income` | integer | Income of a co-applicant |
+| `Loan_Amount` | integer | The amount of loan requested (in thousands) |
+| `Loan_Amount_Term` | integer | The term of the loan (in days, e.g., 360) |
+| `Credit_History` | integer | Meets credit guidelines? (1=Yes, 0=No) |
+| `Property_Area` | text | Location of property (Urban/Semiurban/Rural) |
+| `Loan_Status` | text | Was the loan approved? (Y/N) |
